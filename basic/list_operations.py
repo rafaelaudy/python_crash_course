@@ -23,4 +23,15 @@ print(list)
 list.remove('to remove')
 print(list)
 
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse=True)
+
+print(f"mutated sort {cars}")
+print(f"sort without mutation {sorted(cars)}")
+
+cars.reverse
+print(f"reverse {cars}")
+print(f"len {len(cars)}")
+
+
 
