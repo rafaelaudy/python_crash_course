@@ -33,5 +33,10 @@ cars.reverse
 print(f"reverse {cars}")
 print(f"len {len(cars)}")
 
-
+big_list = [v for v in range(0, 101)]
+print(f"first 10: {big_list[0:10]}")
+print(f"or first 10: {big_list[:10]}")
+print(f"last 10: {big_list[91:]}")
+print(f"set before last 10: {big_list[-15:-10]}")
+print(f"second set of 5: {big_list[5:10]}")
 
