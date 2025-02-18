@@ -10,3 +10,12 @@ for n in numbers:
 
 print(f"\nis 3 in numbers {3 in numbers}")
 print(f"5 is not in numbers {5 not in numbers}")
+
+empty_list = []
+if empty_list:
+    print("list has something")
+else: 
+    print("\nlist is empty")
+
+if 1 in numbers:
+    print("\n1 contained in numbers")
